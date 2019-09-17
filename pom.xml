@@ -8,6 +8,13 @@
   <name>IFPE_3U_PROVA_EQUIPE02 Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
+  <!-- https://mvnrepository.com/artifact/javax.servlet/servlet-api -->
+<dependency>
+    <groupId>javax.servlet</groupId>
+    <artifactId>servlet-api</artifactId>
+    <version>2.5</version>
+    <scope>provided</scope>
+</dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
